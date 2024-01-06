@@ -5,6 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: #FBFBFB;
+}
+
+:root{
+    --primary-color: #445964;
+    --background-color: #FBFBFB;
 }
 
 li{
@@ -56,4 +62,54 @@ nav .brand h3{
 .menu-link{
     display: flex;
     column-gap: 93px;
+}
+
+/* Hero Section */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text p{
+ color: var(--primary-color);
+ font-size: 24px;
+ font-weight: 500;
+}
+
+.hero-title{
+    color: var(--primary-color);
+    font-size: 72px;
+    font-weight: 900;
+}
+
+button{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    width: 310px;
+    height: 65px;
+    border: none;
+    border-radius: 20px;
+    background: var(--Dark-Grey, #263138);
+    padding: 19px 20px;
+    margin-top: 130px;
+    /* margin-bottom: ; */
+}
+
+.hero-img{
+    width: 705px;
+    height: 697px;
+    margin-top: 20px;
+}
+
+.social{
+    /* display:flex;
+    column-gap: 26px; */
+    /* margin-top: 50px; */
+    /* padding-top: 175px; */
+    /* cursor: pointer;
+    background-color: red; */
+
+    /* width:0; */
 }
