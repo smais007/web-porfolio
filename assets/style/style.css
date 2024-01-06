@@ -24,6 +24,27 @@ a{
     font-weight: 500;
 }
 
+h1{
+    color: #445964;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+p{
+    color: #445964;
+text-align: center;
+font-variant-numeric: oldstyle-nums proportional-nums;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
 .container{
     width: 75%;
     max-width: 1420px;
@@ -103,7 +124,7 @@ button{
     margin-top: 20px;
 }
 
-.social{
+/* .social{ */
     /* display:flex;
     column-gap: 26px; */
     /* margin-top: 50px; */
@@ -112,4 +133,50 @@ button{
     background-color: red; */
 
     /* width:0; */
+/* } */
+
+/* About Section */
+
+.about img{
+   display: block;
+   margin: 70px auto 15px auto;
+   /* padding-top: 30px; */
+   width: 183px;
+   height: 207px;
+
+}
+
+.about h1{
+    margin-bottom: 24px;
+}
+
+.about p{
+    padding: 0 264px;
+    margin-bottom: 108px;
+}
+
+.skill-card{
+    display: flex;
+    flex-direction:row;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+}
+
+.skill h1{
+    margin-bottom: 62px;
+}
+
+.skill-name h3{
+    color: #445964;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-bottom: 18px;
+text-align: center;
+}
+
+.skills-2{
+    margin-top: 71px;
 }
