@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,23 +8,23 @@
     background-color: #FBFBFB;
 }
 
-:root{
+:root {
     --primary-color: #445964;
     --background-color: #FBFBFB;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: #445964;
     font-size: 20px;
     font-weight: 500;
 }
 
-h1{
+h1 {
     color: #445964;
     font-family: Roboto;
     font-size: 64px;
@@ -34,18 +34,18 @@ h1{
     text-align: center;
 }
 
-p{
+p {
     color: #445964;
-text-align: center;
-font-variant-numeric: oldstyle-nums proportional-nums;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.container{
+.container {
     width: 75%;
     max-width: 1420px;
     margin: 0 auto;
@@ -53,14 +53,14 @@ line-height: normal;
 
 /*Navbar*/
 
-nav{
-    display:flex;
+nav {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-nav .brand{
+nav .brand {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,43 +68,43 @@ nav .brand{
     /* justify-content: center; */
 }
 
-nav .brand img{
+nav .brand img {
     width: 50px;
     height: 55px;
     color: #445964;
 }
 
-nav .brand h3{
+nav .brand h3 {
     font-size: 36px;
     font-weight: 900;
     color: #445964;
 }
 
-.menu-link{
+.menu-link {
     display: flex;
     column-gap: 93px;
 }
 
 /* Hero Section */
-.hero-section{
+.hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.hero-text p{
- color: var(--primary-color);
- font-size: 24px;
- font-weight: 500;
+.hero-text p {
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 500;
 }
 
-.hero-title{
+.hero-title {
     color: var(--primary-color);
     font-size: 72px;
     font-weight: 900;
 }
 
-button{
+.about-btn {
     color: #fff;
     font-size: 24px;
     font-weight: 900;
@@ -118,65 +118,126 @@ button{
     /* margin-bottom: ; */
 }
 
-.hero-img{
+.hero-img {
     width: 705px;
     height: 697px;
     margin-top: 20px;
 }
 
 /* .social{ */
-    /* display:flex;
+/* display:flex;
     column-gap: 26px; */
-    /* margin-top: 50px; */
-    /* padding-top: 175px; */
-    /* cursor: pointer;
+/* margin-top: 50px; */
+/* padding-top: 175px; */
+/* cursor: pointer;
     background-color: red; */
 
-    /* width:0; */
+/* width:0; */
 /* } */
 
 /* About Section */
 
-.about img{
-   display: block;
-   margin: 70px auto 15px auto;
-   /* padding-top: 30px; */
-   width: 183px;
-   height: 207px;
+.about img {
+    display: block;
+    margin: 70px auto 15px auto;
+    /* padding-top: 30px; */
+    width: 183px;
+    height: 207px;
 
 }
 
-.about h1{
+.about h1 {
     margin-bottom: 24px;
 }
 
-.about p{
+.about p {
     padding: 0 264px;
     margin-bottom: 108px;
 }
 
-.skill-card{
+.skill-card {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     /* flex-wrap: nowrap; */
     justify-content: space-between;
 }
 
-.skill h1{
+.skill h1 {
     margin-bottom: 62px;
 }
 
-.skill-name h3{
+.skill-name h3 {
     color: #445964;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-margin-bottom: 18px;
-text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 18px;
+    text-align: center;
 }
 
-.skills-2{
+.skills-2 {
     margin-top: 71px;
 }
+
+/*Project*/
+
+.project-text {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio {
+    text-align: left;
+    /* margin-top: 150px; */
+}
+
+.project-text p {
+    text-align: right;
+}
+
+.project-catagory{
+    display: flex;
+    column-gap: 20px;
+}
+
+.project-catagory .btn {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 19px 14px;
+    height: 65px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.btn-1{
+    width: 125px;
+    color: #FBFBFB;
+    background-color: #263138;
+
+}
+
+.btn-2{
+    width: 125px;
+    color: #445964;
+    background-color: #DFDFDF;
+    border: none;
+}
+
+.btn-3{
+    width: 180px;
+    color: #445964;
+    background-color: #DFDFDF;
+    border: none;
+}
+
+.btn-4{
+    width: 108px;
+    color: #445964;
+    background-color: #DFDFDF;
+    border: none;
+}
+
